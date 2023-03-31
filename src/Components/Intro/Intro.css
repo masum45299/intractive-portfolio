@@ -57,3 +57,18 @@
     position: absolute;
     z-index: 1;
 }
+.i-right>:nth-child(1){
+    transform: scale(0.70);
+    left: -23%;
+    top: -1%;
+}
+.i-right>:nth-child(2){
+    transform: scale(0.60);
+    top: -18.6%;
+    left: -9rem;
+}
+.i-right>:nth-child(3){
+    transform: scale(1.2);
+    top: 1.1rem;
+    left: 5rem;
+}
