@@ -6,7 +6,8 @@ import instragram from "../../img/instagram.png";
 import vector1 from '../../img/Vector1.png';
 import vector2 from '../../img/Vector2.png';
 import boy from '../../img/boy.png';
-import 
+import crown from '../../img/crown.png';
+import glassesimo from '../../img/glasses.png';
 
 const Intro = () => {
     return (
@@ -25,7 +26,9 @@ const Intro = () => {
                 </div>
             </div>
             <div className='i-right'>
-                Hey i am the right side
+                <img src={vector1} alt=''/>
+                <img src={vector2} alt=''/>
+                <img src={boy} alt=''/>
             </div>
         </div>
     );
