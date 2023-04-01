@@ -8,6 +8,7 @@ import vector2 from '../../img/Vector2.png';
 import boy from '../../img/boy.png';
 import crown from '../../img/crown.png';
 import glassesimo from '../../img/glasses.png';
+import Floting from '../Floting/Floting';
 
 const Intro = () => {
     return (
@@ -29,6 +30,9 @@ const Intro = () => {
                 <img src={vector1} alt=''/>
                 <img src={vector2} alt=''/>
                 <img src={boy} alt=''/>
+                <div style={{top:"-4.3%",left:"55%"}}>
+                    <Floting ></Floting>
+                </div>
             </div>
         </div>
     );
