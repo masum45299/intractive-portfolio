@@ -1,11 +1,11 @@
 import React from 'react';
 import './Floting.css';
-import crown from '../../img/crown.png';
-const Floting = () => {
+
+const Floting = ({img,txt1,txt2}) => {
     return (
         <div className='floting'>
-            <img src={crown} alt=''/>
-            <span>Web <br/>Developer</span>
+            <img src={img} alt=''/>
+            <span>{txt1} <br/>{txt2}</span>
         </div>
     );
 };
