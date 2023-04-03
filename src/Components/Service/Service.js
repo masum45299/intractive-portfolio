@@ -3,6 +3,7 @@ import './Service.css';
 import heartemji from '../../img/heartemoji.png';
 import glasses from '../../img/glasses.png';
 import humber from '../../img/humble.png';
+import Card from '../Card/Card';
 
 const Service = () => {
     return (
@@ -17,7 +18,11 @@ const Service = () => {
                 </div>
             </div>
             <div className='right-service'>
-                <h2>I am the right side</h2>
+                <Card
+                heartemji={heartemji}
+                heading={"Desinger"}
+                details={"Figma,Sketch,Photoshop,Adobe Photoshop"}
+                />
             </div>
         </div>
     );

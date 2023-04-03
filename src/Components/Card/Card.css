@@ -1,0 +1,14 @@
+.card{
+    width: 13rem;
+    height: 16rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgba(255,255,255,0.26);
+    border: 7px solid var(--orangeCard);
+    box-shadow: var(--smboxShadow);
+    border-radius: 20px;
+    padding: 0px 26px 2px 26px;
+}
