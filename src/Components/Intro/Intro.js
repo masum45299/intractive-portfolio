@@ -38,11 +38,11 @@ const Intro = () => {
                 <div style={{top:"22rem", left:"-1rem"}}>
                     <Floting img={thumbup} txt1="Best Design" txt2="Award" ></Floting>
                 </div>
-                <div className='blur'>
+                <div className='blur o-blur'>
                 </div>
                 <div style={
                     {background:"#C1F5FF",top:"18rem",left:"-1rem"}
-                    } className='blur'>
+                    } className='blur t-blur'>
                 </div>
             </div>
         </div>

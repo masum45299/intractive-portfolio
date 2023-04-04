@@ -1,14 +1,14 @@
 .service{
    padding: 0 3rem 0 3rem;
    display: flex;
-   height: 90vh;
    margin-top: 9rem;
-   margin-bottom: 13rem;
 }
 .left-service{
     display: flex;
     flex-direction: column;
+    position: relative;
 }
+
 .left-service>:nth-child(1){
     color: var(--black);
     font-size: 2.5rem;
@@ -28,4 +28,21 @@
     width: 10rem;
     height: 3rem;
     margin-top: 1rem;
+}
+
+.right-service{
+    position: relative;
+}
+.right-service>*{
+    position: relative;
+}
+.s-blur{
+    position: absolute;
+    top:25%;
+    left: -50%;
+}
+.s-blur2{
+    position: absolute;
+    top:20%;
+    left: 20%;
 }
