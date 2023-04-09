@@ -4,3 +4,43 @@
     height: 90vh;
     margin-top: 4rem;
 }
+
+.w-right{
+    position: relative;
+}
+
+.w-maincircle{
+    position: relative;
+    left: 9rem;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    box-shadow: var(--boxShadow);
+    top: 2rem;
+    background: white;
+
+}
+
+.w-maincircle>*{
+    position: absolute;
+}
+.w-maincircle>:nth-of-type(1){
+    top: 6rem;
+    left: 13rem;
+}
+.w-maincircle>:nth-of-type(2){
+    top: -3rem;
+    left: 6rem;
+}
+.w-maincircle>:nth-of-type(3){
+    top: -3rem;
+    left: 6rem;
+}
+.w-maincircle>:nth-of-type(4){
+    top: -3rem;
+    left: 6rem;
+}
+.w-maincircle>:nth-of-type(5){
+    top: -3rem;
+    left: 6rem;
+}
