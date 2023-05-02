@@ -5,6 +5,7 @@ import Intro from './Components/Intro/Intro';
 import NavBar from './Components/NavBar/NavBar';
 import Portfolio from './Components/Portfolio/Portfolio';
 import Service from './Components/Service/Service';
+import Testimonials from './Components/Testimonials/Testimonials';
 import Works from './Components/Works/Works';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Experience/>
       <Works />
       <Portfolio />
+      <Testimonials />
     </div>
   );
 }
