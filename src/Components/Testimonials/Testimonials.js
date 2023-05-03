@@ -42,11 +42,11 @@ const Testimonials = () => {
     return (
         <div className='t-wrapper'>
             <div className='t-heading'>
-                <span>Clients projects</span>
-                <span>clients hire me</span>
-                <span>from me...</span>
+                <span>Clients always get</span> &nbsp;
+                <span>Exceptional work</span> &nbsp;
+                <span>from me...</span> &nbsp;
                 <div className='blur t-blur1' style={{backgroundColor:"var(--purple)"}}></div>
-                <div className='blur t-blur2' style={{backgroundColor:"var(--purple)"}}></div>
+                <div className='blur t-blur2' style={{backgroundColor:"var(--skyblue)"}}></div>
             </div>
             {/* slider */}
             <Swiper
@@ -57,8 +57,10 @@ const Testimonials = () => {
                 {
                     clients.map(client=><SwiperSlide
                     id={client.id}>
+                        <div className='testimonials'>
                         <img src={client.img} alt='' />
                         <span>{client.review}</span>
+                        </div>
                     </SwiperSlide>)
                 }
             </Swiper>
