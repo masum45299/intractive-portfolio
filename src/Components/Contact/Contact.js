@@ -24,10 +24,14 @@ const Contact = () => {
         <div className='contact-form'>
             <div className='w-left'>
                 <div className='awsome'>
-                    <span>Get in touch</span>
-                    <span>Contact me</span>
-                    <div className='blur s-blur1' style={{backgroundColor:"#ABF1FF94"}}></div>
+                    <div className='flex'>
+                    
+                            <span>Get in touch</span>
+                            <span>Contact me</span>
+                        
+                    </div>
                 </div>
+                    <div className='blur s-blur1' style={{backgroundColor:"#ABF1FF94"}}></div>
             </div>
             <div className='c-right'>
                 <form ref={form} onSubmit={sendEmail}>

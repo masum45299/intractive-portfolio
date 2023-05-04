@@ -1,3 +1,16 @@
+
+.awsome .flex{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.awsome .flex>span:nth-of-type(1){
+    font-size: 3rem;
+}
+.awsome .flex>span:nth-of-type(2){
+    font-size: 2rem;
+    color: var(--orange);
+}
 .contact-form{
     padding: 0 3rem 0 3rem;
     display: flex;
